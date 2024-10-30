@@ -1,0 +1,29 @@
+input::-webkit-input-placeholder {
+	color: #b3b3b3 !important;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+	color: #b3b3b3 !important;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+input::-moz-placeholder { /* Firefox 19+ */
+	color: #b3b3b3 !important;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+input:-ms-input-placeholder {
+	color: #b3b3b3 !important;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.joblookup_description {
+	color: #b3b3b3 !important;
+	font-size: 12px;
+	font-weight: 300;
+}

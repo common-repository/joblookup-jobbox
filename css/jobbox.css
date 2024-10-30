@@ -1,0 +1,162 @@
+#pnp .pnp-jobs-content {
+	padding-bottom: 5px;
+	color: #000000
+}
+
+#pnp .pnp-jobs-content a {
+	color: #0000cc;
+}
+
+#pnp .pnp-jobs-content .pnp-job {
+	padding: 5px 0px;
+	border-bottom: 1px solid #dddddd;
+}
+
+#pnp .pnp-pagination {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+#pnp .pnp-pagination a {
+	text-decoration: none;
+}
+
+#pnp .pnp-pagination-standard {
+	padding: 0 10px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#pnp .pnp-pagination-standard ul
+{
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+	border-radius: .25rem;
+	display: inline-block;
+}
+
+#pnp .pnp-pagination-standard ul li
+{
+	display: inline-block;
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+#pnp .pnp-pagination-standard ul li:first-child a
+{
+	border-bottom-right-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+}
+#pnp .pnp-pagination-standard ul li:last-child a
+{
+	border-bottom-left-radius: 0 !important;
+	border-top-left-radius: 0 !important;
+}
+#pnp .pnp-pagination-standard ul li a
+{
+	padding: 10px;
+	display: inline-block;
+}
+#pnp .pnp-pagination-standard ul li a
+{
+	border-radius: 4px;
+	margin: -4px;
+	position: relative;
+}
+#pnp .pnp-pagination-standard.pnp-pagination-curved ul li a
+{
+	border-radius: 50px;
+}
+#pnp .pnp-pagination-standard ul li a:hover
+{
+	background: #eee;
+}
+#pnp .pnp-pagination-standard ul li .pnp-disabled-link
+{
+	border-right: none;
+	border-left: none;
+	padding: 10px 20px;
+	cursor: default;
+	text-align: center;
+	display: inline-block;
+}
+
+#pnp.pnp-jobswidget-wrapper {
+	position: relative;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+	padding: 10px;
+	overflow: hidden;
+	text-align: left; /*max-width: 300px;*/
+	min-height: 250px;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+#pnp .pnp-link {
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	clear: both;
+	font-size: 11px;
+	background: inherit;
+	text-align: right;
+	width: 100%;
+}
+
+#pnp .pnp-link a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#pnp .pnp-widget-header {
+	font-size: 18px;
+	padding-bottom: 5px;
+	color: #000000;
+	border-bottom: 1px solid #dddddd;
+}
+
+#pnp .pnp-jobs-content .pnp-job.comfortable {
+	padding: 10px !important;
+}
+
+#pnp .pnp-searchbox {
+	text-align: center;
+}
+
+#pnp .pnp-searchbox input[type="text"], #pnp .pnp-searchbox input[type="submit"] {
+	width: inherit;
+	margin: 5px 0;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+#pnp a.is-disabled {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+#pnp span.is-disabled {
+	display: block;
+	padding: 17px;
+	position: absolute;
+	z-index: 99;
+	cursor: not-allowed;
+}
+
+@media (max-width: 678px)
+{
+	#pnp .pnp-searchbox input[type="text"], #pnp .pnp-searchbox input[type="submit"] {
+		width: 100%;
+	}
+}
+
+@media (max-width: 493px)
+{
+	#pnp .pnp-pagination-standard ul li a.pnp-disabled-link
+	{
+		padding: 10px 5px;
+	}
+}
